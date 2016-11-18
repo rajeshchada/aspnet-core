@@ -48,6 +48,7 @@ Highlights:
         host.RunAsService();
     ```
 4) Publish release build to file system.
+
 5) To install as a Windows Service you need to run below statement in the command prompt (with Administrator privileges):
     ``` 
     sc create [service name] [binPath= ]   (Change ServiceName and binPath to match yours)
